@@ -8,22 +8,22 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="398dp"
-        android:layout_height="654dp"
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="593dp"
         android:layout_weight="1"
-        app:srcCompat="@mipmap/moji" />
+        app:srcCompat="@drawable/qispa" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="541dp"
+        android:layout_height="438dp"
         android:layout_weight="1"
         android:background="?android:attr/textColorHighlight"
         android:backgroundTint="@android:color/darker_gray"
         android:fontFamily="monospace"
         android:gravity="center_vertical|center_horizontal"
-        android:text="LINEAR LAYOUT"
+        android:text="Qi Spa"
         android:textAllCaps="true"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
@@ -32,11 +32,11 @@
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="458dp"
         android:layout_weight="1"
         android:fontFamily="monospace"
         android:paddingLeft="10dp"
-        android:text="Location:"
+        android:text="Location: 104A D. Tuazon, Quezon City, Luzon 1113 Philippines"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -44,18 +44,18 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
-        android:layout_height="490dp"
+        android:layout_height="424dp"
         android:layout_weight="1"
         android:fontFamily="monospace"
         android:paddingLeft="10dp"
-        android:text="Distance from UST:"
+        android:text="Distance from UST: 0.9 KM"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="18sp"
+        android:textSize="17sp"
         android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="461dp"
         android:layout_weight="1"
         android:orientation="horizontal">
 
@@ -63,8 +63,7 @@
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="87dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="12dp"
+            android:layout_marginRight="8sp"
             android:layout_weight="1"
             android:fontFamily="monospace"
             android:text="BACK"
@@ -76,8 +75,7 @@
             android:id="@+id/linearnext"
             android:layout_width="wrap_content"
             android:layout_height="88dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="8sp"
             android:layout_weight="1"
             android:text="NEXT"
             android:textColor="@color/colorPrimaryDark"
